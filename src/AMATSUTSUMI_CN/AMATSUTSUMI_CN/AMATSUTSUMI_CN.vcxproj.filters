@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Detours">
+      <UniqueIdentifier>{a4f0d3f5-2b61-4931-9530-7e7f3baf495e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Detours\image.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Detours\modules.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Detours\creatwth.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Detours\detours.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Detours\disasm.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Detours\detours.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
